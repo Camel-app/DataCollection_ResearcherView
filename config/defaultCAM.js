@@ -24,7 +24,7 @@ function defaultCAM() {
   if (!usingMangoDB) {
     /* MAKE CHANGES: start*/
 
-    CAM.addElement(new NodeCAM(0, "central (change me!)", {
+    CAM.addElement(new NodeCAM(0, "central concept (change me!)", {
       x: 600,
       y: 400
     }, true, true, true));

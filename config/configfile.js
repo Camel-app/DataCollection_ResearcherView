@@ -15,7 +15,7 @@ var config = {
     LengthSentence: 20, // include breaklines if >= X characters
     LengthWords: 8, // include breaklines after each word with cumsum >= X characters
 
-    ShowResearcherButtons: false, // if true = show researcher functionalities
+    ShowResearcherButtons: true, // if true = show researcher functionalities
 
     cameraFeature: false, // include camera / splotlight feature to move screen
 
@@ -33,7 +33,7 @@ var config = {
 }
 
 // global variable
-var usingMangoDB = true;
+var usingMangoDB = false;
 var usingJATOS = false;
 /* MAKE CHANGES: end*/
 
